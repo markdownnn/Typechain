@@ -1,0 +1,11 @@
+{
+  "name": "Typechain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mh960110/Typechain.git",
+  "author": "Hyeok <mh960110@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.1.3"
+  }
+}
