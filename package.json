@@ -6,6 +6,7 @@
   "author": "Hyeok <mh960110@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "global": "^4.4.0",
     "typescript": "^4.1.3"
   },
   "devDependencies": {
