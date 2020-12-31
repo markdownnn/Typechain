@@ -1,9 +1,22 @@
-const name = "MinHyeok", age = 25, gender="male";
-
-const sayHi = (name:string, age, gender?) => {
-    console.log(`Hello ${name}, you're ${age} and you're ${gender}`)
+class Block {
+    public index : number;
+    public hash: string;
+    public previousHash: string;
+    public data: string;
+    public timestamp: number;
+    constructor(index : number, hash: string, previousHash: string, data: string, timestamp: number) {
+        this.index = index;
+        this.hash = hash;
+        this.previousHash = previousHash;
+        this.data = data
+        this.timestamp = timestamp;
+    }
 }
 
-sayHi(name, age);
+const genesisBlock:Block = new Block(0, "12321", "", "Hello", 123456);
+
+let blockChain: [Block] = [genesisBlock]
+
+console.log(blockChain)
 
 export {};
