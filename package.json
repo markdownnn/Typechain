@@ -22,7 +22,7 @@
     }
   },
   "lint-staged": {
-    "*.{js,css,md}": "prettier --write"
+    "*.{js,css,md,ts}": "prettier --write"
   },
   "scripts": {
     "start": "tsc-watch --onSuccess \" node dist/index.js \" "
